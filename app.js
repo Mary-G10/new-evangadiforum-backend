@@ -7,8 +7,13 @@ app.use(express.json());
 
 app.use(
   cors({
+<<<<<<< HEAD
     origin: ["http://localhost:5173", "http://localhost:5174"], // Fixed: use array
     credentials: true,
+=======
+    origin: "http://localhost:5173" || "http://localhost:5174", 
+    credentials: true, 
+>>>>>>> 7188c55d4cdbf3f8659ed15ce32359557cd02adf
   })
 );
 
